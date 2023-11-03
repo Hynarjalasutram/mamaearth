@@ -1,0 +1,324 @@
+*{
+    outline: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: antiquewhite;
+}
+.con{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 74px;
+    width: 100%;
+    position: relative;
+}
+.topleft{
+    display: flex;
+}
+.topleft>img{
+    position: relative;
+    top: 8px;
+    max-height: 16px;
+    margin-right: 1px;
+}
+.topleft>input{
+    height: 32px;
+    width: 382px;
+    padding-left: 30px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px 0px 0px 5px;
+}
+.topleft>i{
+    position: absolute;
+    left: 16%;
+    top: 37%;
+}
+.topleft>button{
+    height: 34px;
+    width: 94px;
+    background-color: rgb(54, 165, 209);
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.topmiddle>img{
+    width: 170px;
+    height: 60px;
+    top: 12%;
+}
+.topright{
+    font-size: 15px;
+}
+.topright>i{
+    margin: 15px;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.body{
+    background-color: rgb(253, 247, 240);
+    height: 90vh;
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+}
+.bodytitle{
+    height: 10vh;
+    width: 80%;
+    background-image: linear-gradient(to bottom right, blue, white);
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    border: none;
+    border-radius: 7px 7px 0px 0px ;
+    box-shadow: 1px 1px 4px 0.5px gray;
+}
+.bodytitle>h2{
+    position: absolute;
+    left: 42%;
+    top: 17px;
+    background-color: red;
+    font-size: 15px;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 0px 12px 0px 12px;
+    box-shadow: 5px 1px 4px 0.5px gray;
+}
+.bodyitems{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 78%;
+    height: auto;
+    top: 20%;
+    left: 11%;
+    border: none;
+}
+.bodyitem1{
+    background-color: rgba(253, 248, 248,1);
+    width: 23%;
+    height: 100%;
+    box-shadow: 1px 1px 4px 0.5px gray;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.bodyitem1>h6{
+    font-size: 10px;
+    background-color: red;
+    height: 15px;
+    width: 80px;
+    padding-top: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px 0px 5px 0px;
+}
+.bodyitem1>img{
+    height: 31vh;
+    width: 100%;
+    background: transparent;
+}
+.bodyitem1>p{
+    padding: 0px 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.bodyitem1>#p2{
+    color: rgb(113, 165, 39);
+}
+.bodyitem1>span{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.bodyitem1>span>img{
+    height: 15px;
+    width: 15px;
+}
+.bodyitem1>h5{
+    padding: 13px 0px;
+    font-size: 11px;
+}
+.bodyitem1>button{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(64, 165, 206);
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
+.bodyitem2{
+    background-color: rgba(253, 248, 248,1);
+    width: 23%;
+    height: 100%;
+    box-shadow: 1px 1px 4px 0.5px gray;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+.bodyitem2>h6{
+    font-size: 10px;
+    background-color: red;
+    height: 15px;
+    width: 80px;
+    padding-top: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px 0px 5px 0px;
+    position: absolute;
+}
+.bodyitem2>img{
+    height: 35vh;
+    width: 100%;
+    background: transparent;
+}
+.bodyitem2>p{
+    padding: 0px 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.bodyitem2>#p2{
+    color: rgb(113, 165, 39);
+}
+.bodyitem2>span{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.bodyitem2>span>img{
+    height: 15px;
+    width: 15px;
+}
+.bodyitem2>h5{
+    padding: 13px 0px;
+    font-size: 11px;
+}
+.bodyitem2>button{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(64, 165, 206);
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
+.bodyitem3{
+    background-color: rgba(253, 248, 248,1);
+    width: 23%;
+    height: 100%;
+    box-shadow: 1px 1px 4px 0.5px gray;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+.bodyitem3>h6{
+    font-size: 10px;
+    background-color: red;
+    height: 15px;
+    width: 80px;
+    padding-top: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px 0px 5px 0px;
+    position: absolute;
+}
+.bodyitem3>img{
+    height: 35vh;
+    width: 100%;
+    background: transparent;
+}
+.bodyitem3>p{
+    padding: 0px 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.bodyitem3>#p2{
+    color: rgb(113, 165, 39);
+}
+.bodyitem3>span{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.bodyitem3>span>img{
+    height: 15px;
+    width: 15px;
+}
+.bodyitem3>h5{
+    padding: 13px 0px;
+    font-size: 11px;
+}
+.bodyitem3>button{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(64, 165, 206);
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
+.bodyitem4{
+    background-color: rgba(253, 248, 248,1);
+    width: 23%;
+    height: 100%;
+    box-shadow: 1px 1px 4px 0.5px gray;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+.bodyitem4>h6{
+    font-size: 10px;
+    background-color: red;
+    height: 15px;
+    width: 80px;
+    padding-top: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px 0px 5px 0px;
+    position: absolute;
+}
+.bodyitem4>img{
+    height: 35vh;
+    width: 100%;
+    background: transparent;
+}
+.bodyitem4>p{
+    padding: 0px 10px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.bodyitem4>#p2{
+    color: rgb(113, 165, 39);
+}
+.bodyitem4>span{
+    font-size: 13px;
+    padding-bottom: 20px;
+}
+.bodyitem4>span>img{
+    height: 15px;
+    width: 15px;
+}
+.bodyitem4>h5{
+    padding: 13px 0px;
+    font-size: 11px;
+}
+.bodyitem4>button{
+    width: 100%;
+    height: 6vh;
+    background-color: rgb(64, 165, 206);
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+}
